@@ -1,0 +1,34 @@
+/* ImageCarousel.css */
+.carousel-wrapper {
+  margin-top: 30px !important;
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.carousel-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+  /* height: 700px; */
+  overflow: hidden;
+}
+
+.carousel-slide img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 5px;
+}

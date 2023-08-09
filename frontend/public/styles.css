@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  background-color: #040303;
+  color: #fff;
+  font-family: "Merriweather", serif;
+}
+
+.news {
+  margin-top: 50px;
+}
+
+.news > h1 {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    text-align: center;
+  }
+}

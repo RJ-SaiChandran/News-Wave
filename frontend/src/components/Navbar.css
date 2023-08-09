@@ -1,0 +1,160 @@
+.navbar-main {
+  display: flex;
+  background-color: #c4dfdf;
+  color: black;
+  padding: 0;
+}
+
+.navbar-main ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-main li {
+  margin-right: 20px;
+  transition: transform 0.2s;
+  margin-top: 10px;
+}
+
+.navbar-main li:last-child {
+  margin-right: 0;
+}
+
+.navbar-main li a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-main li:hover {
+  color: #66bfbf;
+}
+
+.span {
+  color: black;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d2e9e9;
+}
+
+.span2 {
+  display: flex;
+  justify-content: end;
+  margin-top: -28px;
+}
+
+.MuiButton-containedWarning {
+  background-color: #f11a7b !important;
+}
+
+.news-dialog-trigger {
+  cursor: pointer;
+}
+
+.news-dialog {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.news-dialog li {
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.news-dialog li:hover {
+  background-color: #f4f4f4;
+}
+
+.news-dropdown-trigger {
+  position: relative;
+  cursor: pointer;
+}
+
+.news-dropdown-box {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: block;
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.news-dropdown {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.news-dropdown li {
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.news-dropdown li:hover {
+  background-color: #f4f4f4;
+}
+.navbar-main ul li a {
+  color: black;
+}
+
+.navbar-main ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar-main li {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .navbar-main ul {
+    font-size: 15px;
+  }
+}
+
+.comic-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff5252;
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px #000;
+  transition: all 0.3s ease;
+}
+
+.comic-button:hover {
+  background-color: #fff;
+  color: #ff5252;
+  border: 2px solid #ff5252;
+  box-shadow: 5px 5px 0px #ff5252;
+}
+
+.comic-button:active {
+  background-color: #fcf414;
+  box-shadow: none;
+  transform: translateY(4px);
+}
+
+.link-comic {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link-comic:hover {
+  color: #ff5252;
+}
